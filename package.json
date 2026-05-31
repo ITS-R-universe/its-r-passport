@@ -1,6 +1,6 @@
 {
   "name": "its-r-passport",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,28 +9,25 @@
   },
   "dependencies": {
     "next": "14.2.29",
-    "react": "^18",
-    "react-dom": "^18",
-    "@supabase/supabase-js": "^2",
-    "next-themes": "^0.3.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "@supabase/supabase-js": "^2.43.0",
     "bcryptjs": "^2.4.3",
-    "jose": "^5.9.6",
-    "nanoid": "^5.0.7",
-    "resend": "^3.4.0",
+    "jose": "^5.2.0",
+    "resend": "^3.2.0",
+    "nanoid": "^5.0.0",
     "otplib": "^12.0.1",
-    "qrcode": "^1.5.4",
-    "clsx": "^2.1.1",
-    "lucide-react": "^0.400.0"
+    "qrcode": "^1.5.3"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
     "@types/bcryptjs": "^2.4.6",
     "@types/qrcode": "^1.5.5",
-    "tailwindcss": "^3.4",
-    "autoprefixer": "^10",
-    "postcss": "^8"
+    "tailwindcss": "^3.4.0",
+    "postcss": "^8.4.0",
+    "autoprefixer": "^10.4.0"
   }
 }
